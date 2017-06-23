@@ -1,5 +1,5 @@
 # Maze Creation
-We have a n x n graph, meaning that we have n rows and n columns. Each and every node represents a room in the maze. To start with, we think that the maze is fully connected. The nodes in the corners have two neighbours, the node in the outer lines have 3 neighbours and the nodes in the inside have four neighbours. We will use python for this project.
+We have a height x width graph, meaning that we have n rows and n columns. Each and every node represents a room in the maze. To start with, we think that the maze is fully connected. The nodes in the corners have two neighbours, the node in the outer lines have 3 neighbours and the nodes in the inside have four neighbours. We will use python for this project.
 
 ## How does the program work
 We start from a node in the graph. We note that we have visited that node. We take the neighbours in a random order. If the neighbour has not been visited, we move that node and we save the edge between the two nodes. We actually do an in depth search where we ranomly check on the of the neighbouring nodes. 
