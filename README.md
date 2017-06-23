@@ -9,13 +9,12 @@ When we cannot visit any neibouring node, the procedured is finished and through
 In order to run this file from the terminal we have to give the following order
 
 ```
-python make_maze.py <n> <start_x> <start_y> <seed> <output_file>
+python make_maze.py [-n] [height] [-w] [width] [-s] [seed] [-o]
 ```
 Depending on the system where the program is run, you may need to write python3.
 
 We can observe that the program receives five parameters:
-* The parameter n represents the amount of rows and columns our graph will have
-* The parameter start_x represents the x coordinate of our starting position in the graph. 
-* The parameter start_y represents the y coordinate of our starting position in the graph. 
+* The parameter n represents the height our graph will have
+* The parameter w represents the width our graph will have
 * The seed is a number or a string that it is given to generate a random seed for our program.
-* The output_file represents the file where we want to create the coordinates of our maze.
+* The -o is set so that the walls of the maze can be stored in a txt file.
